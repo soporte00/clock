@@ -1,6 +1,6 @@
 /*base styles*/
 html{
-  font-size:15px;
+  font-size:8px;
 }
 
 body{
@@ -179,4 +179,14 @@ main{
   border-radius: 50%;
   z-index: 20;
   box-shadow: 0 .2rem .5rem rgba(0,0,0,.5);
+}
+
+@media screen and (min-width: 265px){
+html{font-size: 10px;}
+}
+
+
+
+@media screen and (min-width: 758px){
+html{font-size: 16px;}
 }
