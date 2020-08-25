@@ -141,7 +141,7 @@ main{
   height:100%;
   background: rgba(220,240,255,.5);
   border-radius: 50%;
-  box-shadow: 3px .2rem 2px rgba(0,0,0,.9) inset; 
+  box-shadow: 3px .2rem 2px rgba(0,0,0,.6) inset; 
   z-index: 40;
 }
 
