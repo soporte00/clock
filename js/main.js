@@ -1,6 +1,6 @@
 const clock = document.getElementById('clock')
 
-const actualizeClock = ()=>{
+const updateClock = ()=>{
 	const time = new Date()
 	const root = document.documentElement.style
 
@@ -9,5 +9,5 @@ const actualizeClock = ()=>{
 	root.setProperty('--hour-needle', `rotate(${ (time.getHours() * 30) + (time.getMinutes() * 0.5) }deg)`);
 }
 
-actualizeClock();
+updateClock();
 setInterval( actualizeClock, 1000);
