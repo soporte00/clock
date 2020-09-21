@@ -10,4 +10,4 @@ const updateClock = ()=>{
 }
 
 updateClock();
-setInterval( actualizeClock, 1000);
+setInterval( updateClock, 1000);
