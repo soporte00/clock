@@ -36,7 +36,6 @@ main{
   display:block;
   margin:auto;
   padding:0; 
-  box-sizing: border-box; 
   position: relative;
   background: #fff;
   width:25em;
